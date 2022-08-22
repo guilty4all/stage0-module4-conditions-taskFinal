@@ -5,11 +5,11 @@ public class CoordinatePane {
        if(x>0 && y>0){
            System.out.println("first");
        } else if (x>0 && y<0) {
-           System.out.println("second");
+           System.out.println("fourth");
        } else if (x<0 && y<0) {
            System.out.println("third");
        } else if (x<0 && y>0) {
-           System.out.println("fourth");
+           System.out.println("second");
        }else{
            System.out.println("zero");
        }
